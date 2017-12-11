@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/colours.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.1.3/unsemantic-grid-responsive-tablet.css">
 
 <meta
@@ -14,6 +15,10 @@
       minimum-scale=1,
       maximum-scale=1"
     />
+
+    <SCRIPT SRC="indexscriptAlt.js">
+
+    </SCRIPT>
 </head>
 
 
@@ -22,7 +27,7 @@
 <heading>
 
   <nav>
-    <a href="https://www.w3schools.com">
+    <a href="index.html">
       <div class="button button1" id="NavButton">
       <h1>Home</h1>
     </a>
@@ -31,12 +36,12 @@
       <div class="button button1" id="NavButton">
         <h1>About</h1>
       </div>
-      <a href="https://www.w3schools.com">
+      <a href="Work Rigin.html">
         <div class="button button1" id="NavButton">
         <h1>Projects</h1>
       </a>
         </div>
-    <a href="https://www.w3schools.com">
+    <a href="Contact.html">
       <div class="button buttonSelected" id="NavButton">
         <h1>Contact</h1>
         </a>
@@ -46,7 +51,7 @@
 
 
 
-    <main  class="grid-container">
+    <main id="main colour"  class="grid-container">
     </heading>
 
 
@@ -69,6 +74,14 @@
 
               </ui>
             </div>
+            <section class="col-md-12" id="Accessnav2">
+              <div class="button button1" id="AccessnavButton">
+                  <img src="assets/Dark(50px).png" id="darkimage" alt="About" height="50px" width="40px" onclick="invert()"></img>
+              </div>
+              <div class="button button1" id="AccessnavButton">
+                    <img src="assets/light(50px).png" id="lightimage" alt="About" height="50px" width="40px" onclick="revert()"></img>
+              </div>
+            </section>
       </article>
     </section>
 

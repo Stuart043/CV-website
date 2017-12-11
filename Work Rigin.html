@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
     <!-- Material Design for Bootstrap CSS -->
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/colours.css">
   </head>
   <body>
 
@@ -22,25 +23,27 @@
     <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
   </body>
 
+  <SCRIPT SRC="indexscriptAlt.js">
 
+  </SCRIPT>
 <header>
   <nav>
-
-    <a href="https://www.w3schools.com">
+    <a href="index.html">
       <div class="button button1" id="NavButton">
       <h1>Home</h1>
     </a>
       </div>
-
-      <div class="button buttonSelected" id="NavButton">
+      <a href="About.html">
+      <div class="button button1" id="NavButton">
         <h1>About</h1>
-      </div>
-      <a href="https://www.w3schools.com">
-        <div class="button button1" id="NavButton">
-        <h1>Projects</h1>
       </a>
+      </div>
+
+        <div class="button buttonSelected" id="NavButton">
+        <h1>Projects</h1>
+
         </div>
-    <a href="https://www.w3schools.com">
+    <a href="Contact.html">
       <div class="button button1" id="NavButton">
         <h1>Contact</h1>
         </a>
@@ -48,7 +51,11 @@
   </nav>
 </header>
 
-    <Main>
+
+
+    <Main id="main colour">
+
+
 
       <section class="col-md-12" id="containerNav">
 
@@ -101,7 +108,7 @@
                 <p>I wanted something that suggest dominance which is why the "í" is significantly smaller that "R" to show the contrast in size.</p>
               </div>
         </article>
-        <article class="col-md-6">
+        <article class="col-md-6" id="main_col2">
 
                 <img src="assets/Rigin_bottle.png" alt="Infographic">
                 <img src="assets/rigin_sketchs.png" alt="Infographic">
@@ -112,7 +119,14 @@
       </section>
 
 
-
+      <section class="col-md-12" id="Accessnav2">
+        <div class="button button1" id="AccessnavButton">
+            <img src="assets/Dark(50px).png" id="darkimage" alt="About" height="50px" width="50px" onclick="invert()"></img>
+        </div>
+        <div class="button button1" id="AccessnavButton">
+              <img src="assets/light(50px).png" id="lightimage" alt="About" height="50px" width="50px" onclick="revert()"></img>
+        </div>
+      </section>
 
     </div>
     </main>
