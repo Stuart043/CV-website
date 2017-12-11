@@ -1,0 +1,316 @@
+body
+{
+background-color: lightgrey;
+max-width: 960px;
+margin-right: auto;
+margin-left: auto;
+}
+
+header
+{
+background-color: black;
+
+}
+
+footer
+{
+background-color: lightgray;
+min-height: 100px;
+}
+
+
+main {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 1000px;
+    background-color: lightgrey;
+
+  }
+
+  main article img {
+    width: 100%;
+  }
+
+
+nav{
+margin-right: auto;
+margin-left: auto;
+height: 60px;
+background-color: aliceblue;
+display: flex;
+
+
+flex-direction: row;
+}
+.container{
+    background-color: gold;
+    height: 60px;
+    width: 100px;
+     flex-grow: 1;
+}
+
+
+nav h1{
+  font-size: 16pt;
+}
+
+
+
+
+/* mostly homepage */
+
+#Middle
+{
+background-color: white;
+min-height: 700px;
+margin-bottom: 50px;
+padding-left: 19%;
+padding-top: 50px;
+}
+#Infographic
+{
+background-color: white;
+}
+#logo
+{
+    background-color: white;
+    height: 330px;
+}
+#twocolsize {
+
+   height: 300px;
+      width: 300px;
+      display: inline-block;
+       margin: 1%;
+}
+       #nothing {
+         width: 80px;
+             display: inline-block;
+}
+#col1 {
+       margin: 1%;
+          height: 0.1px; /* Box isnt sizing with the image for some reason. and the box is covering the "o hello", I'll fix this later */
+}
+
+/* mostly about */
+
+#nav1 {
+    background-color: green;
+        min-height: 100px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-left: 13%;
+        padding-bottom: 20px;
+        padding-top: 10px;
+}
+
+#nav1col1 {
+    background-color: orange;
+      display: inline-block;
+       margin: 1%;
+       margin-right: 8%;
+          height: 150px;
+}
+
+
+
+
+
+#cont2 {
+    background-color: orange;
+        min-height: 100px;
+        /* Padding */
+        margin-top: 3%;
+
+        padding-left: 20%;
+        padding-bottom: 20px;
+        padding-top: 50px;
+}
+
+#Hi_box {
+    background-color: red;
+
+        min-height: 200px;
+        max-width: 500px;
+}
+
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .image2 {
+    position: absolute;
+    top: 600px;
+    left: 0px;
+  }
+
+  .image3 {
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+  }
+
+
+#main_col {
+  background-color: white;
+      margin-top: 1%;
+      min-height: 1300px;
+}
+
+#main_col2 {
+
+      margin-top: 1%;
+      min-height: 1300px;
+}
+
+#main_col_article{
+      padding-bottom: 50px;
+}
+#nav_padding{
+padding-top: 20px;
+}
+
+#containerNav {
+
+
+      padding-top: 1%;
+      padding-bottom: 2%;
+
+      margin-right: auto;
+      margin-left: auto;
+}
+
+#colnav {
+    background-color: red;
+      display: inline-block;
+       margin: 3%;
+          height: 150px;
+}
+
+
+#mainimage{
+
+}
+
+
+
+
+/* Text */
+
+h1 {
+font-size: 25pt;
+font-family: "Arial", Arial, sans-serif;
+}
+
+p {
+font-size: 14pt;
+font-family: "Arial", Arial, sans-serif;
+}
+
+
+#textbox {
+      padding-top: 5%;
+      padding-bottom: 5px;
+
+      padding-left: 15%;
+      padding-right: 15%;
+}
+
+#Credits {
+      padding-top: 3%;
+      padding-bottom: 5px;
+    text-align: center;
+      padding-left: 8%;
+      padding-right: 8%;
+}
+
+
+#foreword {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+#text_list {
+            padding-left: 10%;
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+}
+
+
+/* Caption */
+figure figcaption {
+    font-size: 14pt;
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+
+}
+
+
+
+/* Button */
+
+.button {
+    background-color: white; /* Green */
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.1s;
+    cursor: pointer;
+  }
+
+    .button1 {
+        background-color: white;
+        color: black;
+    }
+
+    .buttonSelected {
+        background-color: white;
+        color: Red;
+    }
+
+    .button1:hover {
+        background-color: white;
+        color: red;
+    }
+
+
+    a:link {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    #NavButton  {
+          height: 60px;
+          width: 240px;
+
+    }
